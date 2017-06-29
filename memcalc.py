@@ -21,7 +21,7 @@ def execute(x,y):
 	try:
 		arg1 = x
 	except IndexError:
-		print "Usage: [M/G] [num] , You can specify M if you want to covert into MB and G if you want to convert to GB"
+		print "Usage: [M/G] [num] , You can specify M if you want to convert into MB and G if you want to convert to GB"
 		sys.exit(1)
 	if x == "M" or x == "m":
 		checkint(y)
